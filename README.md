@@ -24,18 +24,19 @@ Tecnologías Utilizadas
 ##  Instrucciones de Configuración y Ejecución
 
 ### 1. Clonar el repositorio
-```bash
+```
+bash
 git clone https://github.com/NetFanely2/ProyectoRetoBack.git
 cd karate-serverest-users
-
+```
 ### 2. Ejecutar todas las suites de prueba:
-
+```
 mvn clean test
-
+```
 ### 3. Ejecutar un archivo .feature en específico:
-
+```
 mvn test -Dtest=users/users-get.feature
-
+```
 ### 4. Reportes de Ejecución:
 
 target/karate-reports/karate-summary.html
