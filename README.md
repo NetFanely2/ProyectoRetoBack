@@ -19,7 +19,7 @@ Tecnologías Utilizadas
 * **Motor de Pruebas:** JUnit 5
 * **Gestor de Dependencias:** Apache Maven
 * **Lógica Auxiliar:** Java (Generador de datos dinámicos `DataGenerator`)
- --
+
 
 ##  Instrucciones de Configuración y Ejecución
 
