@@ -1,0 +1,29 @@
+INFORME DEL RETO
+======= === ====
+
+QA : FANNY PASTOR
+APLICACIÓN: SERVEREST
+FECHA: 31/07/2006
+
+1. Estrategia de Automatización
+ - El objetivo principal es la automatización de las pruebas de integración y comportamiento
+   para la API de Gestión de Usuarios del servicio de pruebas ServeRest.
+
+ - Se diseñó e implementó una suite automatizada basada en Karate DSL, aprovechando su
+   sintaxis nativa BDD y su integración directa con Java/Maven.
+
+2. Patrones de Diseño y Arquitectura
+ - Encapsulamiento de estructuras JSON, esquemas de validación y flujos de autenticación
+   o datos comunes en archivos .feature y .json independientes.
+
+ - Aislamiento de Pruebas y Gestión de Estado (Hooks & Feature Call): Invocación limpia de
+   configuraciones globales (karate-config.js) y utilidades dinámicas antes de cada escenario.
+
+3. Herramientas Utilizadas
+ - Karate DSL + Java: Framework unificado para pruebas de API con sintaxis Gherkin BDD nativa
+
+ - Apache Maven + JUnit 5: Gestión limpia de dependencias, automatización de la compilación
+   y ejecución ágil de pruebas compatibleS con cualquier sistema operativo y entornos CI/CD.
+
+ - Reportes HTML: Generación automática de reportes visuales detallados con el estado de
+   ejecución, tiempos de respuesta y trazabilidad completa de peticiones HTTP.
